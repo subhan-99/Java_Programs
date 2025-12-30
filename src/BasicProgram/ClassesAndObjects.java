@@ -1,4 +1,5 @@
 package BasicProgram;
+<<<<<<< HEAD
 
 // Nokia class
 class Nokia {
@@ -46,4 +47,34 @@ public class ClassesAndObjects {
         // Call display() again after setting values
         n1.display();
     }
+=======
+class Nokia
+{
+	private int mic ;
+	private int cam;
+		void setValue()
+		{
+			mic=2;      // classAndObject
+			cam=40;
+		}
+		void display()
+		{
+			System.out.println(mic);
+			System.out.println(cam);
+		}
+}
+
+
+public class ClassesAndObjects {
+	public static void main(String[] args) {
+		
+	Nokia n1= new Nokia();
+	n1.display();
+	n1.setValue();
+	n1.display();
+}
+	
+	
+
+>>>>>>> 0ad5f29ab6008499492871849a1192dc1d6eaa09
 }

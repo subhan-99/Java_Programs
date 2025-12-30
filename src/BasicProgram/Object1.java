@@ -1,5 +1,6 @@
 package BasicProgram;
 
+<<<<<<< HEAD
 // Subhan class
 class Subhan {
 
@@ -18,10 +19,22 @@ class Subhan {
 
     // Instance (object) method
     void fun2() {
+=======
+class Subhan {
+    int x;  // instance (object) variable
+  private   int y;  // instance (object) variable
+
+    void fun1() {   // instance (object) method
+        System.out.println("fun1");
+    }
+
+    void fun2() {   // instance (object) method
+>>>>>>> 0ad5f29ab6008499492871849a1192dc1d6eaa09
         System.out.println("fun2");
     }
 }
 
+<<<<<<< HEAD
 // Main class
 public class Object1 {
 
@@ -43,5 +56,15 @@ public class Object1 {
         // Print value of x of s2 object
         // Since x is not set for s2, default value (0) is printed
         System.out.println(s2.x);
+=======
+ public class Object1 {
+    public static void main(String[] args) {
+        Subhan s1 = new Subhan(); 
+        Subhan s2 = new Subhan();  
+
+        s1.x = 5;  
+        System.out.println("hello");
+        System.out.println(s2.x);  
+>>>>>>> 0ad5f29ab6008499492871849a1192dc1d6eaa09
     }
 }
