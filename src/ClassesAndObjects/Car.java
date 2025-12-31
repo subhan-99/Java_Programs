@@ -1,6 +1,5 @@
 package ClassesAndObjects;
 
-<<<<<<< HEAD
 // Car class
 // 👉 Blueprint / template for creating Car objects
 public class Car {
@@ -18,16 +17,4 @@ public class Car {
         // Print car brand and speed
         System.out.println(brand + " is driving at " + Speed);
     }
-=======
-public class Car {
-	String brand;
-	String colour;
-	int Speed;
-	
-	public void drive(){
-		System.out.println(brand + " is driving at " + Speed);
-		
-	}
-
->>>>>>> 0ad5f29ab6008499492871849a1192dc1d6eaa09
 }

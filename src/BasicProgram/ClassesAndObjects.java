@@ -1,29 +1,22 @@
 package BasicProgram;
-<<<<<<< HEAD
 
 // Nokia class
 class Nokia {
 
     // Instance variables (data members)
-    // private → data hiding (cannot access directly outside class)
+    // private → data hiding
     private int mic;
     private int cam;
 
-    // Method to assign values to instance variables
+    // Method to assign values
     void setValue() {
-
-        // Initialize mic and camera values
         mic = 2;      // mic quality
         cam = 40;     // camera megapixel
     }
 
     // Method to display values
     void display() {
-
-        // Print mic value
         System.out.println(mic);
-
-        // Print camera value
         System.out.println(cam);
     }
 }
@@ -31,50 +24,20 @@ class Nokia {
 // Main class
 public class ClassesAndObjects {
 
-    // main() method → program execution starts here
+    // main method → program execution starts here
     public static void main(String[] args) {
 
         // Create object of Nokia class
         Nokia n1 = new Nokia();
 
-        // Call display() before setting values
-        // Default values of int → 0
+        // Before setting values
+        // default value of int = 0
         n1.display();
 
-        // Call setValue() method to assign values
+        // Set values
         n1.setValue();
 
-        // Call display() again after setting values
+        // After setting values
         n1.display();
     }
-=======
-class Nokia
-{
-	private int mic ;
-	private int cam;
-		void setValue()
-		{
-			mic=2;      // classAndObject
-			cam=40;
-		}
-		void display()
-		{
-			System.out.println(mic);
-			System.out.println(cam);
-		}
-}
-
-
-public class ClassesAndObjects {
-	public static void main(String[] args) {
-		
-	Nokia n1= new Nokia();
-	n1.display();
-	n1.setValue();
-	n1.display();
-}
-	
-	
-
->>>>>>> 0ad5f29ab6008499492871849a1192dc1d6eaa09
 }

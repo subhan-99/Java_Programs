@@ -1,6 +1,5 @@
 package ClassesAndObjects;
 
-<<<<<<< HEAD
 // Main class
 public class ClassesObjectDemo {
 
@@ -30,21 +29,4 @@ public class ClassesObjectDemo {
         // Call drive() method using car2 object
         car2.drive();
     }
-=======
-public class ClassesObjectDemo {
-	public static void main(String[] args) {
-		Car car1 = new Car();
-	    car1.Speed = 100;
-	    car1.colour = "Red";
-	    car1.brand = "Toyota";
-	    car1.drive();
-	    
-	    Car car2 = new Car();
-	    car2.Speed = 120;
-	    car2.brand = "Kia";
-	    car2.colour = "White";
-	    car2.drive();
-	}
-
->>>>>>> 0ad5f29ab6008499492871849a1192dc1d6eaa09
 }
