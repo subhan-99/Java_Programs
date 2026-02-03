@@ -20,7 +20,6 @@ public class LinkedListDemo {
         l.removeLast();                           // delete last element ("durga")
 
         l.addFirst("ccc");                        // add "ccc" at the beginning
-
         System.out.println(l);                    // print final LinkedList
     }
 }
